@@ -10,8 +10,9 @@ body{
     background-color: indigo;
 }
 .jaroiseatingryszwithkaczkainbeczka{
-    font-size: 81px;
+    font-size: 60px;
     background-color: rgb(175, 55, 199);
+    border-radius: 150%;
 }
 .container{
     text-align: center;

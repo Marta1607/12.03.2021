@@ -53,3 +53,21 @@ paragraf.setAttribute('class' , 'jaroiseatingryszwithkaczkainbeczka')
 paragraf.innerText = "jaro is eating ryz with kaczka in beczka"
 const app = document.getElementById('app')
 app.appendChild(paragraf)
+
+
+// const span = document.createElement('span')
+// span.setAttribute('class' , 'jaroiseatingryszwithkaczkainbeczka')
+// span.innerText = "jaro się dusi"
+// app.appendChild(span)
+
+const btn = document.createElement('button')
+btn.setAttribute('class' , 'jaroiseatingryszwithkaczkainbeczka')
+btn.innerText = "jaro się dusi"
+app.appendChild(btn)
+
+const div = document.createElement('div')
+div.setAttribute('class' , 'jaroiseatingryszwithkaczkainbeczka')
+const span = document.createElement('span')
+span.innerText = 'kaczka is duszing jaro in beczka'
+div.appendChild(span)
+app.appendChild(div)
